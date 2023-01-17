@@ -4,6 +4,9 @@ This is a TypeScript project with React.js that finds the shortest path between 
 
 This function can be useful in various scenarios such as game development, robotics, navigation, image processing and graph theory.
 
+[Check the DEMO here](https://clinquant-valkyrie-fbce79.netlify.app/)
+
+
     npm install
     npm run dev
 
