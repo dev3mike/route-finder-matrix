@@ -47,7 +47,6 @@ export function findFastestRoute(matrix: boolean[][], source: Coordinate, destin
         const newRow = current!.row + row;
         const newCol = current!.col + col;
         if (newRow >= 0 && newRow < matrixObject.rows && newCol >= 0 && newCol < matrixObject.cols && matrixObject.data[newRow][newCol] && distances[newRow][newCol] === Infinity) {
-          
           distances[newRow][newCol] = distances[current!.row][current!.col] + 1;
           parents[newRow][newCol] = current!;
           queue.push({ row: newRow, col: newCol });
